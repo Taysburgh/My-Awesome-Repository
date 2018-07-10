@@ -1,0 +1,14 @@
+jobs:
+- name: git-resource-job
+  plan:
+  - get: git-repo
+    trigger: true
+  - task: list-resources
+    file: git-repo/tutorials/task_18/tasks/list-resources/task.yml
+
+resources:
+- name: git-repo
+  type: git
+  source:
+    uri: https://github.com/Infra-Red/concourse-training-mckesson.git
+    branch: master
