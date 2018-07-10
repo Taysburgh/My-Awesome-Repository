@@ -4,11 +4,11 @@ jobs:
   - get: git-repo
     trigger: true
   - task: list-resources
-    file: tasks/list-resources/task.yml
+    file: git-repo/list-resources/task.yml
 
 resources:
 - name: git-repo
   type: git
   source:
-    uri: https://github.com/Infra-Red/concourse-training-mckesson.git
+    uri: https://github.com/Taysburgh/My-Awesome-Repository.git
     branch: master
