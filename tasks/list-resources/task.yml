@@ -9,4 +9,4 @@ inputs:
 - name: git-repo
 
 run:
-  path: git-repo/tutorials/task_18/tasks/list-resources/run.sh
+  path: My-Awesome-Repository/tasks/list-resources/run.sh
