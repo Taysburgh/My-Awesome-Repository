@@ -6,7 +6,7 @@ image_resource:
   source: {repository: ubuntu}
 
 inputs:
-- name: git-repo
+- name: my-repo
 
 run:
-  path: My-Awesome-Repository/tasks/list-resources/run.sh
+  path: my-repo/tasks/list-resources/run.sh
