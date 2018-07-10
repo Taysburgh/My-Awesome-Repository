@@ -9,4 +9,4 @@ inputs:
 - name: my-repo
 
 run:
-  path: /my-repo/tasks/list-resources/run.sh
+  path: my-repo/tasks/list-resources/run.sh
