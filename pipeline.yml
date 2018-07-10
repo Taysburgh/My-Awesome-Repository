@@ -4,7 +4,7 @@ jobs:
   - get: git-repo
     trigger: true
   - task: list-resources
-    file: git-repo/list-resources/task.yml
+    file: git-repo/tasks/list-resources/task.yml
 
 resources:
 - name: git-repo
