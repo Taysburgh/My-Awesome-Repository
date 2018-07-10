@@ -9,4 +9,5 @@ inputs:
 - name: git-repo
 
 run:
-  path: git-repo/tasks/list-resources/run.sh
+  path: bash
+  args: ['git-repo/tasks/list-resources/run.sh']
